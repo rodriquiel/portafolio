@@ -1,0 +1,133 @@
+@media (max-width:768px) {
+    /*MENU*/
+    h4{
+        text-align: center;
+    }
+    
+    .menu .container{
+        flex-direction: column;
+    }
+
+    .menu .container .menu__titulo{
+        width: auto;
+    }
+
+    .menu .container .menu__lista{
+        width: auto;
+    }
+
+    .menu__lista__item{
+        margin-left: 1rem;
+    }
+    
+    /*TITULO*/
+    .titulo .titulo__div{
+        flex-direction: column-reverse;
+    }
+
+    .titulo__foto{
+        width: 40%;
+    }
+
+    .titulo__container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .titulo__container h2, .titulo__container h3{
+        text-align: center;
+    }
+
+    .titulo__lista{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo__lista__item{
+        margin-top: 1rem;
+    }
+
+    /*SKILLS*/
+
+    .skills__nombre{
+        width: 50%;
+    }
+
+    /*FORMACION*/
+
+    .formacion__cursos{
+        justify-content: center;
+    }
+
+    .formacion__cursos__lista{
+        width: 50%;
+    }
+    
+    /*PROYECTOS*/
+    .proyectos__caja .proyectos__tarjeta{
+        width: 80%;
+    }
+
+    /*CONTACTO*/
+
+    .contacto .contacto__container{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contacto__container img{
+        width: 100%;
+    }
+
+    .contacto__input, .contacto__textarea{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:320px){
+    /*MENU*/
+    .menu .container .menu__lista{
+        flex-direction: column;
+    }
+
+    .menu__lista__item{
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    /*TITULO*/
+    .titulo__foto{
+        width: 80%;
+    }
+
+    /*SKILLS*/
+    .skills__nombre{
+        width: 100%;
+    }
+
+    /*FORMACION*/
+    .formacion__cursos__lista{
+        width: 100%;
+    }
+
+    /*PROYECTOS*/
+    .proyectos__redireccion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyectos__repo, .proyectos__pagina{
+        margin: 0.5rem 0;
+    }
+
+    /*CONTACTO*/
+    .contacto__input, .contacto__textarea{
+        width: 100%;
+    }
+
+    
+}

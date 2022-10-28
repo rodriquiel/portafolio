@@ -1,0 +1,111 @@
+/* MENU */
+
+.menu .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .container .menu__titulo{
+    width: 20%;
+}
+
+.menu .container .menu__lista{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.menu__lista__item{
+    margin-right: 1rem;
+}
+
+/* TITULO */
+
+.titulo .titulo__div{
+    display: flex;
+    align-items: center;
+}
+
+.titulo .titulo__div .titulo__lista{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+/* SKILLS */
+
+.skills .skills__caja{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills__nombre{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HOBBIES */
+
+/* FORMACION */
+
+.formacion .formacion__cursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.formacion__cursos__lista{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* PROYECTOS */
+
+.proyectos .proyectos__caja{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.proyectos__caja .proyectos__tarjeta{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 40%;
+}
+
+.proyectos__redireccion{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CONTACTO */
+
+.contacto .contacto__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contacto .contacto__container .contacto__form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* PIE PAGINA*/
+
+.piepagina .piepagina__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
